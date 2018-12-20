@@ -1,0 +1,29 @@
+{
+  "name": "ansible-wrapper",
+  "version": "0.1.0",
+  "description": "A wrapper for the ansible cli.",
+  "license": "MIT",
+  "author": {
+    "name": "Stefan de Jong"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve2507/ansible-wrapper"
+  },
+  "bugs": {
+    "url": "https://github.com/steve2507/ansible-wrapper/issues"
+  },
+  "keywords": [
+    "ansible",
+    "wrapper"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm shrinkwrap --only=prod",
+    "test": "./node_modules/.bin/mocha",
+    "cov": "./node_modules/.bin/nyc ./node_modules/.bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "nyc": "*"
+  }
+}
