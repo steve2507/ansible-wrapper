@@ -1,6 +1,6 @@
 {
   "name": "ansible-wrapper",
-  "version": "0.1.0",
+  "version": "0.7.0",
   "description": "A wrapper for the ansible cli.",
   "license": "MIT",
   "author": {
