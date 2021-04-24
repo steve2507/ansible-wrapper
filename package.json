@@ -18,7 +18,6 @@
     "wrapper"
   ],
   "scripts": {
-    "prepublishOnly": "npm shrinkwrap --only=prod",
     "test": "./node_modules/.bin/mocha",
     "cov": "./node_modules/.bin/nyc ./node_modules/.bin/mocha"
   },
